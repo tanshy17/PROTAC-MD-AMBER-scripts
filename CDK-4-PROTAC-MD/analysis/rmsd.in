@@ -1,0 +1,4 @@
+trajin 500ns-nowater.binpos
+rms first out rmsd-VHL.dat :301-445@CA,C,N,O
+rms first out rmsd-CDK4.dat :1-300@CA,C,N,O
+rms first out rmsd-lig.dat :446&!@H=

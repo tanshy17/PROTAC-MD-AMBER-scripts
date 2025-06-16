@@ -1,0 +1,11 @@
+Minmize all the hydrogens
+ &cntrl
+  ntx = 1, irest = 0, ntpr = 500,
+  imin = 1, maxcyc = 10000, ncyc = 5000, ntmin = 1,
+  dx0 = 0.1, drms = 0.0001,
+  ntf = 1, ntb = 1, cut = 10.0, nsnb = 10,
+  ntc = 1, iwrap = 1,
+  ntr = 1,
+  restraint_wt = 5,            !force constant for restraint
+  restraintmask = ':1-446',    !restrained all complex but not water
+ /

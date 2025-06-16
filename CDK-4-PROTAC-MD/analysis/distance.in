@@ -1,0 +1,2 @@
+trajin 500ns-nowater.binpos
+distance  :10@CA :339@CA out disPP-10-339.dat
